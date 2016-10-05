@@ -16,10 +16,14 @@ public class EndOfQuarter {
      */
     public static void main(String[] args) {
 
-        for(int i = 1; i < 6; i++)
+        for(int i = 1; i < 11; i++)
           System.out.println("Enter number: "+i);
     
         int i = 10;
+        int e = 6;
+          System.out.println("Enter another number: "+e);
+          
+
     
     }
     
