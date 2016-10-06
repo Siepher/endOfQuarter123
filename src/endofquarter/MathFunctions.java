@@ -5,22 +5,25 @@
  */
 package endofquarter;
 
+
 /**
  *
  * @author student
  */
 public class MathFunctions {
-    
-
-
-    
    
-public static void main(String args[]) {
-      double x = 6;
+public static void main(String[] args) { 
 
-      System.out.printf("The value of e is %.4f%n", Math.E);
-      System.out.printf("sqrt(%.3f) is %.3f%n", x, Math.sqrt(x));
+    
+    
+
+
+        
+    }      
+    
+     
    }
     
+
     
-}
+
