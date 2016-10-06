@@ -5,6 +5,9 @@
  */
 package endofquarter;
 
+import java.util.Scanner;
+
+
 /**
  *
  * @author student
@@ -15,16 +18,38 @@ public class EndOfQuarter {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
 
         for(int i = 1; i < 11; i++)
           System.out.println("Enter number: "+i);
     
         int i = 10;
-        int e = 6;
-          System.out.println("Enter another number: "+e);
           
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter another number: ");
+
+        
+        int n = input.nextInt();
+        
+        
+               if (n < 0) {
+    // negative 
+               
+
+                } else {
+                   double root = Math.sqrt(n);
+                   double absolute = Math.abs(n); 
+                           System.out.print("");
+
+                   
+   // it's a positive
+               }        
+          
+               MathFuntions.SuquareRootAndAddThree(); 
 
     
     }
+    
+    
     
 }
