@@ -13,16 +13,20 @@ package endofquarter;
 public class MathFunctions {
    
 public static void main(String[] args) { 
-
+//    private static Object SuquareRootAndAddThree;
     
+    
+    
+
+    }
     
 
 
         
-    }      
+}
     
      
-   }
+   
     
 
     

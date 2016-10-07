@@ -13,6 +13,7 @@ import java.util.Scanner;
  * @author student
  */
 public class EndOfQuarter {
+    private static Object MathFuntions;
 
     /**
      * @param args the command line arguments
@@ -45,7 +46,7 @@ public class EndOfQuarter {
    // it's a positive
                }        
           
-               MathFuntions.SuquareRootAndAddThree(); 
+//               MathFuntions.SuquareRootAndAddThree(); 
 
     
     }
