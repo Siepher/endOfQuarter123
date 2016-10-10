@@ -33,6 +33,7 @@ public class EndOfQuarter {
         int n = input.nextInt();
         
         
+                           
                if (n < 0) {
     // negative 
                
@@ -40,7 +41,8 @@ public class EndOfQuarter {
                 } else {
                    double root = Math.sqrt(n);
                    double absolute = Math.abs(n); 
-                           System.out.print("");
+                           System.out.print(root);
+                           
 
                    
    // it's a positive
