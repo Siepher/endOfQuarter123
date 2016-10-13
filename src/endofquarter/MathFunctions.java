@@ -5,6 +5,8 @@
  */
 package endofquarter;
 
+import java.util.Scanner;
+
 
 /**
  *
@@ -18,6 +20,14 @@ public static void main(String[] args) {
     
     
 
+    }
+
+    static double SquareRootAndAddThree(int input) {
+        double absolute = Math.abs(input); 
+        double root = Math.sqrt(absolute);
+        root+=3;
+        //System.out.println("SquareRootAndAddThree is " + root);
+        return root;
     }
     
 

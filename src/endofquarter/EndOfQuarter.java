@@ -5,6 +5,7 @@
  */
 package endofquarter;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 
@@ -26,40 +27,37 @@ public class EndOfQuarter {
 
         int e = reader.nextInt();
 
-        
-        
-        for(int i = 0; e >= i; i++) {
-             
-        System.out.println(i);
+        for(int i = 1; e >= i; i++) 
+        {     
+            System.out.println(i);
         }
           
         Scanner input = new Scanner(System.in);
         System.out.print("Enter another number: ");
 
         
-        int n = input.nextInt();
+        int Number1 = input.nextInt();
         
+        ArrayList<Double> lstArray = new ArrayList<Double>();
+                           
+        if (Number1 < 0) 
+        {
+             // negative don't do nothing lol
+        } else 
+        {
+             // it's a positive
+             double x;
+             x = MathFunctions.SquareRootAndAddThree(Number1);
+             if ( x <= 1000 )
+             {
+                lstArray.add(x);
+             }
+        }       
+        double total = 0;
+        for (Double item : lstArray) {
+            total += item;
+        }
         
-                           
-               if (n < 0) {
-    // negative 
-               
-
-                } else {
-                   double root = Math.sqrt(n);
-                   double absolute = Math.abs(n); 
-                           System.out.print(root);
-                           
-
-                   
-   // it's a positive
-               }        
-          
-//               MathFuntions.SuquareRootAndAddThree(); 
-
-    
+        System.out.print("The Sum is " + total) ;    
     }
-    
-    
-    
 }
