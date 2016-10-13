@@ -5,7 +5,6 @@
  */
 package endofquarter;
 
-import java.util.Scanner;
 
 
 /**
