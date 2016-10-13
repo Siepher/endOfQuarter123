@@ -19,12 +19,19 @@ public class EndOfQuarter {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
 
-        for(int i = 1; i < 11; i++)
-          System.out.println("Enter number: "+i);
-    
-        int i = 10;
+        Scanner reader = new Scanner(System.in);
+
+        System.out.println("Enter a number: ");
+
+        int e = reader.nextInt();
+
+        
+        
+        for(int i = 0; e >= i; i++) {
+             
+        System.out.println(i);
+        }
           
         Scanner input = new Scanner(System.in);
         System.out.print("Enter another number: ");
